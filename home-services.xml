@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>home-services</Name>
+  <Repository>three88bu/homeservices:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1610909039</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8181</HostPort>
+        <ContainerPort>8181</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment>
+    <Variable>
+      <Value></Value>
+      <Name>ApiKey</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>BlueIrisUser</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>BlueIrisPassword</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>HttpSchedulerConnString</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value></Value>
+      <Name>HomeAssistantToken</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Port" Target="8181" Default="8181" Mode="tcp" Description="Container Port: 8181" Type="Port" Display="always" Required="true" Mask="false">8181</Config>
+  <Config Name="ApiKey" Target="ApiKey" Default="" Mode="" Description="Container Variable: ApiKey" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="BlueIrisUser" Target="BlueIrisUser" Default="" Mode="" Description="Container Variable: BlueIrisUser" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="BlueIrisPassword" Target="BlueIrisPassword" Default="" Mode="" Description="Container Variable: BlueIrisPassword" Type="Variable" Display="always" Required="true" Mask="true"></Config>
+  <Config Name="HttpSchedulerConnString" Target="HttpSchedulerConnString" Default="" Mode="" Description="Container Variable: HttpSchedulerConnString" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="HomeAssistantToken" Target="HomeAssistantToken" Default="" Mode="" Description="Container Variable: HomeAssistantToken" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+</Container>
