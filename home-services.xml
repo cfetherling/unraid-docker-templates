@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1610909039</DateInstalled>
+  <DateInstalled>1610910912</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description/>
@@ -50,12 +50,27 @@
     </Variable>
     <Variable>
       <Value></Value>
-      <Name>HttpSchedulerConnString</Name>
+      <Name>HomeAssistantToken</Name>
       <Mode/>
     </Variable>
     <Variable>
-      <Value></Value>
-      <Name>HomeAssistantToken</Name>
+      <Value/>
+      <Name>DatabaseHost</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>DatabaseName</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>DatabaseUser</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value/>
+      <Name>DatabasePassword</Name>
       <Mode/>
     </Variable>
   </Environment>
@@ -64,6 +79,9 @@
   <Config Name="ApiKey" Target="ApiKey" Default="" Mode="" Description="Container Variable: ApiKey" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="BlueIrisUser" Target="BlueIrisUser" Default="" Mode="" Description="Container Variable: BlueIrisUser" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="BlueIrisPassword" Target="BlueIrisPassword" Default="" Mode="" Description="Container Variable: BlueIrisPassword" Type="Variable" Display="always" Required="true" Mask="true"></Config>
-  <Config Name="HttpSchedulerConnString" Target="HttpSchedulerConnString" Default="" Mode="" Description="Container Variable: HttpSchedulerConnString" Type="Variable" Display="always" Required="true" Mask="false"></Config>
   <Config Name="HomeAssistantToken" Target="HomeAssistantToken" Default="" Mode="" Description="Container Variable: HomeAssistantToken" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="DatabaseHost" Target="DatabaseHost" Default="" Mode="" Description="Container Variable: DatabaseHost" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DatabaseName" Target="DatabaseName" Default="HttpScheduler" Mode="" Description="Container Variable: DatabaseName" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DatabaseUser" Target="DatabaseUser" Default="" Mode="" Description="Container Variable: DatabaseUser" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="DatabasePassword" Target="DatabasePassword" Default="" Mode="" Description="Container Variable: DatabasePassword" Type="Variable" Display="always" Required="true" Mask="true"/>
 </Container>
