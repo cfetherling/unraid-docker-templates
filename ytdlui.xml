@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1612913447</DateInstalled>
+  <DateInstalled>1612914110</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description/>
@@ -33,8 +33,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir/>
-      <ContainerDir>/media</ContainerDir>
+      <HostDir>/mnt/user/ytdlui/</HostDir>
+      <ContainerDir>/app/media</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
@@ -46,7 +46,7 @@
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="Media" Target="/media" Default="" Mode="rw" Description="Container Path: /media" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="Media" Target="/app/media" Default="" Mode="rw" Description="Container Path: /media" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/ytdlui/</Config>
   <Config Name="PORT" Target="3001" Default="3001" Mode="tcp" Description="Container Port: 3001" Type="Port" Display="always" Required="false" Mask="false">3001</Config>
   <Config Name="DOTNETCORE_URLS" Target="DOTNETCORE_URLS" Default="" Mode="" Description="Container Variable: DOTNETCORE_URLS" Type="Variable" Display="advanced" Required="true" Mask="false">localhost://*:3001</Config>
 </Container>
